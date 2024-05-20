@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Votes For Your Favourites Teams - Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dekko">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Votes For Yours Favourite Teams Euro 2024</h1>
+        <a href="#myForm" class="skip-link">Skip to the main </a>
+        <nav id="mainmenu">
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><b>Form</b></li>
+                <li><a href="otherteam.html">Other Teams</a></li>
+                <li><a href="otherthing.html">Other Things</a></li>
+            </ul>
+        </nav>
+        <div id="introduction">
+            <h2>Send your favourite teams</h2>
+            <p>Which teams you like the most(for me is <strong>Hungary</strong>)? If yes, please fill the following form!</p>
+        </div>
+    </header>
+
+    <main>
+        <h1>Form to submit a favourite player</h1>
+        <form id="myForm" action="mailto:chiennguyen.11022004@@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend><strong>Datasheet</strong></legend>
+            <label><strong><i>Enter your favourite player</i></strong></label><br>
+            <input type="text" id="players" name="players">
+            <label>Votes to receive gifts</label><br>
+            <label><strong><i>Enter your favourite teams</i></strong></label><br>
+            <input type="text" name="teams">
+            <label>Euro 2024 Statistics</label><br>
+            <label><strong>Story shortly</strong></label><br>
+        </fieldset>
+        
+        <section>
+            <h2>How much points you give to your favourite player</h2>
+            <fieldset>
+                <div class="rating">
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">5</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">4</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">3</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">2</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">1</label>
+                </div>
+            </fieldset>
+        </section>
+        
+        <section>
+            <h2>Rating about How Exciting you are waiting for Euro</h2>
+            <fieldset>
+                <div class="rating2">
+                    <input type="radio" name="rating2" value="5">
+                    <label for="star5">5</label>
+                    <input type="radio" name="rating2" value="4">
+                    <label for="star4">4</label>
+                    <input type="radio" name="rating2" value="3">
+                    <label for="star3">3</label>
+                    <input type="radio" name="rating2" value="2">
+                    <label for="star2">2</label>
+                    <input type="radio" name="rating2" value="1">
+                    <label for="star1">1</label>
+                </div>
+            </fieldset>
+        </section>
+
+        <div>
+            <p>Your rating in a 1 to 5 scale<br>
+                <label>1 - <strong>unwatchable</strong></label>
+                <label>2</label>
+                <label>3</label>
+                <label>4</label>
+                <label>5 - must watch</label>
+            </p>
+        </div>
+
+        <section>
+            <h2>Give Your Comments</h2>
+            <fieldset>
+                <legend><strong>Comments
+                </strong></legend><br>
+                <textarea id="comments" name="comments" rows="4" cols="50" required></textarea><br><br>
+            </fieldset>
+        </section>
+       
+        
+
+        <h2>Enter your Personal Information</h2>
+        <fieldset>
+        <legend><strong>Personal Information</strong></legend>
+        
+        <div>
+            <i>Please enter your name</i>
+        </div>
+        <label for="name"><strong>Name</strong></label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <div>
+            <i>Please enter your email address</i>
+        </div>
+
+        
+        <div>
+            <label for="subscribe">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                I would like to subscribe to a newsletter 
+            </label>
+        </div>
+        
+        <label for="email"><Strong>Email address</Strong></label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Send</strong></legend>
+            <label for="agree">
+                    <input type="checkbox" id="agree" name="agree">
+                    I agree to the terms and conditions
+            </label>
+            
+            <button class="button" type="reset" id="reset-button">Reset</button>
+            <button class="button" type="submit" id="submit-button">Submit</button>
+        </fieldset>
+      
+
+        </form>
+
+        <h2>Content of Website</h2>
+        <nav>
+            <ol>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="otherteam.html">Other Teams</a></li>
+                <li><a href="otherthing.html">Other Things</a></li>
+            </ol>
+        </nav>
+        <hr>
+        <footer>
+            <address>
+                <p>Author: <strong>Nguyen Duy Chien</strong>(<a
+                        href="mailto:chiennguyen.11022004@gmail.com)"><strong>r0iftm@inf.elte.hu</strong>)</a><br>
+                    Budapest Garay utca 23, 1076 </p>
+            </address>
+        </footer>
+        <hr>
+    </main>
+
+
+</body>
+
+</html>
